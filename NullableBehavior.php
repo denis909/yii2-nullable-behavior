@@ -4,7 +4,7 @@ namespace denis909\yii;
 
 use yii\db\ActiveRecord;
 
-abstract class NullableBehavior extends \yii\base\Behavior
+class NullableBehavior extends \yii\base\Behavior
 {
 
     public $attributes = [];
